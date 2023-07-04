@@ -8,6 +8,9 @@ export default defineNuxtConfig({
     shim: false,
   },
   imports: {
-    autoImport: false,
+    // autoImport: false,
+  },
+  build: {
+    transpile: ["trpc-nuxt"],
   },
 });

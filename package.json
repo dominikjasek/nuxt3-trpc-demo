@@ -23,5 +23,11 @@
     "nuxt": "^3.6.1",
     "prettier": "^2.8.8",
     "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@trpc/client": "^10.33.0",
+    "@trpc/server": "^10.33.0",
+    "trpc-nuxt": "^0.10.5",
+    "zod": "^3.21.4"
   }
 }

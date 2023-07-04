@@ -11,7 +11,4 @@ const props = defineProps<{
   items: T[];
   selected: T;
 }>();
-
-// eslint-disable-next-line no-console
-console.log(props.items);
 </script>
