@@ -7,8 +7,8 @@ export default defineNuxtConfig({
   typescript: {
     shim: false,
   },
-  imports: {
-    // autoImport: false,
+  nitro: {
+    preset: "vercel-edge",
   },
   build: {
     transpile: ["trpc-nuxt"],

@@ -1,8 +1,8 @@
 <template>
-  <div>Ahoj z kartičky</div>
-  <div v-for="(item, index) in items" :key="index">
-    <span>{{ item.someProperty }}</span>
-    <span> wufft {{ index }}</span>
+    <div>Wow, generics on component is so cool!</div>
+    <div v-for="(item, index) in items" :key="index">
+      <span>{{ item.someProperty }}</span>
+      <span>{{ index }}</span>
   </div>
 </template>
 

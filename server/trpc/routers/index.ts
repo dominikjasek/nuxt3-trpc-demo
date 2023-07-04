@@ -9,10 +9,12 @@ export const appRouter = router({
       })
     )
     .query(({ input }) => {
-      console.log("aaaaaaaaaaaaa trpc index router");
+      const now = new Date();
 
       return {
-        greeting: `hello ${input?.text ?? "world"}`,
+        greeting: `hello ${
+          input?.text ?? "world"
+        }, current time is ${now.toISOString()}`,
       };
     }),
 });
